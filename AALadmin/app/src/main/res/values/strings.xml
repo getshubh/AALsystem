@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">AAS admin</string>
     <string name="welcome">Welcome to Admin Login of AAS</string>
-    <string name="url">http://192.168.1.100:4444/</string>
+    <string name="url">http://192.168.1.6:4444/</string>
 </resources>

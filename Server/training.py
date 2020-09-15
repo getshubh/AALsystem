@@ -15,7 +15,7 @@ import numpy as np
 from PIL import Image
 def traindata():
     # Create Local Binary Patterns Histograms for face recognization
-    recognizer = cv2.createLBPHFaceRecognizer()
+    recognizer = cv2.face.LBPHFaceRecognizer_create()
 
     # Using prebuilt frontal face training model, for face detection
     detector = cv2.CascadeClassifier("haarcascade_frontalface_default.xml");

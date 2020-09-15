@@ -3,5 +3,5 @@
     <string name="welcome">Welcome to AAS</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="url">http://192.168.1.100:4444/</string>
+    <string name="url">http://192.168.1.6:4444/</string>
 </resources>

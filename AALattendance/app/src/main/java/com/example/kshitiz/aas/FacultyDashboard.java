@@ -96,6 +96,7 @@ customlist sl;
                 // read the response
                 BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
                 String st;
+                data="";
                 while((st= in.readLine())!=null)
                     data=data.concat(st);
                 conn.disconnect();

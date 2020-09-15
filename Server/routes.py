@@ -1,6 +1,6 @@
 from flask import Flask, render_template, jsonify,request
 import json
-from a import record
+from record import recordData
 from training import traindata
 from recogniz import recog
 import sqlite3
@@ -10,9 +10,9 @@ app = Flask(__name__)
 def gg():
     return render_template('index.html')
 @app.route('/record',methods=['POST','GET'])
-def home():
+def recordImg():
   req=request.args.get('name')
-  Id=record(req)
+  Id=recordData(req)
   return jsonify(ID=Id['id'],passw=Id['pass'])
 
 @app.route('/train')
@@ -20,7 +20,7 @@ def train():
   return jsonify(status=traindata())
 
 @app.route('/recognize',methods=['POST','GET'])
-def rec():
+def takeAtt():
   req=request.args.get('faculty')
   conn = sqlite3.connect('database.db')
   sql="select * from attreq where id="+str(req)+" and datereq=(select date('now'));"

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AALadmin.iml" filepath="$PROJECT_DIR$/.idea/modules/AALadmin.iml" group="AALadmin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AALadmin-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AALadmin-app.iml" group="AALadmin/app" />
       <module fileurl="file://$PROJECT_DIR$/AASadmin.iml" filepath="$PROJECT_DIR$/AASadmin.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
