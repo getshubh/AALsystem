@@ -17,10 +17,11 @@ The Project has following three modules:
   - Server Module (runs on server for processing incoming requests)
 
 How to use:
-  - start the Server by running main.py file on Server system.
+  - For initialisation you need run createdb.py file to create the database
+  - start the Server by running routes.py file on Server system.
   - For Admin:
     - install the Admin app
-    - provide roll no. of student
+    - provide name of student
     - System will take the pictures of student and will return the login id & password for student login in attendance app.
     - train the System to recognize newly enrolled by pressing "Train Model" button.
   - For Professors:
